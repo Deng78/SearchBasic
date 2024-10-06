@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    background-image: url('/Users/atembior/SearchBasic/images/background.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between; /* Space out the logo and nav */
+    align-items: center;
+    background-color: #f8f9fa; /* Light gray background like Chrome */
+    padding: 10px 30px; /* Padding for the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for separation */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Logo container styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo image styling */
+header img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px; /* Space between logo and site name */
+}
+
+/* Site name next to the logo */
+.site-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navigation list items */
+nav ul li {
+    margin-right: 100px;
+}
+
+/* Navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark gray color */
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+/* Navigation link hover effect */
+nav ul li a:hover {
+    text-decoration: none;
+    color: #4285f4; /* Chrome’s blue hover color */
+}
+
+/* Adjust spacing for a cleaner look */
+header {
+    padding: 15px 50px;
+}
+
+/* Styling the footer */
+footer {
+    
+    padding: 10px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+  
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: sets container height to full viewport */
+  }
+  
+ video {
+    max-width: 100%; /* Ensures video doesn't exceed container width */
+  }
+
